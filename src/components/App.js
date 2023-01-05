@@ -4,7 +4,7 @@ import "../styles/App.css";
 const App = () => {
   const [change , setChange] = useState(true);
   function Toggle(){
-    setChange(false)
+    setChange(!change)
   }
   return (
     <div id="main">
